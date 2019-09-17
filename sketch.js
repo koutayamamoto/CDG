@@ -1,10 +1,5 @@
 'use strict';
 
-
-document.addEventListener('touchmove', function(e) {e.preventDefault();}, {passive: false});
-
-
-
 var font;
 
 var textTyped = 'COMME\ndes\nGARÇONS';
@@ -80,7 +75,7 @@ function draw() {
 
           var w = noise((x - nOff) / 10, (y + nOff * 0.1) / 10) * 10; //大きさのノイズ
           var h = noise((x - nOff) / 10, (y + nOff * 0.1) / 10) * 10; //大きさのノイズ
-          rect(0, -90, w, h); // rect() is cool too
+          rect(0, -50, w, h); // rect() is cool too
           pop();
         }
 
