@@ -25,7 +25,7 @@ function preload() {
 
 function setup() {
   createCanvas(1600, 1000);
-  frameRate(25);
+  frameRate(50);
   rectMode(CENTER);
 
   colors = [color(0, 0, 200), color(10, 0, 255), color(120, 120, 120)];
