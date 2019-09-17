@@ -24,7 +24,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1600, 1000);
+  createCanvas(1600, 800);
   frameRate(50);
   rectMode(CENTER);
 
